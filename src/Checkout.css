@@ -1,0 +1,21 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+.checkout__ad{
+    width: 99.5%;
+    transition: transform 450ms;
+}
+.checkout__ad:hover{
+    transform: scale(1.01);
+    opacity: 1;
+}
+.checkout__title {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.empty_cart{
+     padding: 10px;
+}

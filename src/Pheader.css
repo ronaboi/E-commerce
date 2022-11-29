@@ -1,0 +1,21 @@
+.payment__header{
+        background-color: rgb(234, 237, 237) !important;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        justify-content: space-evenly;
+        box-shadow: 0px 0px 3px 1px #000000;
+}
+.payment__header > h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  .payment__logo {
+    margin-top: 20px;
+    object-fit:contain;
+    width: 100px;
+  }
+
+.lock{
+    margin-top:20px;
+}
